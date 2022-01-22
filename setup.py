@@ -21,5 +21,5 @@ setup(
             "imgs/tree/*.png",
         ]
     },
-    install_requires=["opencv-python~=4.5.1.48", "Pillow~=8.2.0", "PyAutoGui~=0.9.52"],
+    install_requires=["opencv-python~=4.5.1.48", "Pillow>=8.2,<9.1", "PyAutoGui~=0.9.52"],
 )
